@@ -1,3 +1,3 @@
 # SilenceBlog
-SilenceBlog/r
+SilenceBlog
 **this is my first blog**
