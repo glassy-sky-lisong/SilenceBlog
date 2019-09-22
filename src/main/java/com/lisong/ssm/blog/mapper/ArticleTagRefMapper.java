@@ -2,6 +2,7 @@ package com.lisong.ssm.blog.mapper;
 
 import com.lisong.ssm.blog.entity.ArticleTagRef;
 import com.lisong.ssm.blog.entity.Tag;
+import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;
 
@@ -9,7 +10,7 @@ import java.util.List;
  * 文章标签关联表Mapper
  * @author lisong
  */
-
+@Mapper
 public interface ArticleTagRefMapper {
 
     /**

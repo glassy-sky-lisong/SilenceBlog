@@ -2,12 +2,14 @@ package com.lisong.ssm.blog.mapper;
 
 import com.lisong.ssm.blog.entity.ArticleCategoryRef;
 import com.lisong.ssm.blog.entity.Category;
+import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;
 
 /**
  * @author lisong
  */
+@Mapper
 public interface ArticleCategoryRefMapper {
     /**
      *添加文章和分类关联记录

@@ -1,6 +1,7 @@
 package com.lisong.ssm.blog.mapper;
 
 import com.lisong.ssm.blog.entity.Comment;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
@@ -9,7 +10,7 @@ import java.util.List;
  *  评论Mapper
  * @author lisong
  */
-
+@Mapper
 public interface CommentMapper {
 
     /**

@@ -1,6 +1,7 @@
 package com.lisong.ssm.blog.mapper;
 
 import com.lisong.ssm.blog.entity.Category;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
@@ -10,7 +11,7 @@ import java.util.List;
  *
  * @author lisong
  */
-
+@Mapper
 public interface CategoryMapper {
 
     /**

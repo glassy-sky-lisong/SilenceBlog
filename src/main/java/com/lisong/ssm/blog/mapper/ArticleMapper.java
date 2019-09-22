@@ -1,6 +1,7 @@
 package com.lisong.ssm.blog.mapper;
 
 import com.lisong.ssm.blog.entity.Article;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.HashMap;
@@ -11,6 +12,7 @@ import java.util.List;
  *
  * 文章Mapper
  */
+@Mapper
 public interface ArticleMapper {
     /**
      * 根据文章ID删除文章
