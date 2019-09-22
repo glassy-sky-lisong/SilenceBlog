@@ -1,9 +1,13 @@
 package com.lisong.ssm.blog.mapper;
 
 import com.lisong.ssm.blog.entity.ArticleCategoryRef;
+import com.lisong.ssm.blog.entity.Category;
 
 import java.util.List;
 
+/**
+ * @author lisong
+ */
 public interface ArticleCategoryRefMapper {
     /**
      *添加文章和分类关联记录
@@ -70,5 +74,5 @@ public interface ArticleCategoryRefMapper {
      * @param articleId 文章ID
      * @return 分类的列表
      */
-    List<com.lisong.ssm.blog.entity.Category> listCategoryByArticleId(Integer articleId);
+    List<Category> listCategoryByArticleId(Integer articleId);
  }
