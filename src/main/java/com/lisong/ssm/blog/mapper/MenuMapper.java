@@ -3,6 +3,8 @@ package com.lisong.ssm.blog.mapper;
 import com.lisong.ssm.blog.entity.Menu;
 import org.apache.ibatis.annotations.Mapper;
 
+import java.util.List;
+
 /**
  * 菜单Mapper
  *
@@ -52,5 +54,5 @@ public interface MenuMapper {
      * @return 列表
      */
 
-    java.util.List<Menu> listMenu() ;
+    List<Menu> listMenu() ;
 }

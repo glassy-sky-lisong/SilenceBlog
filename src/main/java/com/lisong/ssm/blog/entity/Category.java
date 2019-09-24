@@ -41,4 +41,13 @@ public class Category implements Serializable {
     public Category(Integer categoryId) {
         this.categoryId = categoryId;
     }
+
+    /**
+     * 未分类
+     *
+     * @return 分类
+     */
+    public static Category Default() {
+        return new Category(100000000, "未分类");
+    }
 }

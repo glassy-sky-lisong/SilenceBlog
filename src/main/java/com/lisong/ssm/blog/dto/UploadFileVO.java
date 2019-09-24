@@ -8,7 +8,7 @@ import lombok.Data;
  */
 
 @Data
-public class DownloadFileVO {
+public class UploadFileVO {
 
     private String src;
 

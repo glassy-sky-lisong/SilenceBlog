@@ -38,7 +38,7 @@ public class Article implements Serializable {
 
     private User user;
 
-    private java.util.List<Tag> tagList;
+    private List<Tag> tagList;
 
     private List<Category> categoryList;
 }

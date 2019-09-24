@@ -14,7 +14,7 @@
     </settings>
     
     <plugins>
-        <plugin interceptor="com.github.pagehelper">
+        <plugin interceptor="com.github.pagehelper.PageHelper">
             <!--<property name="dialect" value="mysql"/>-->
             <property name="offsetAsPageNum" value="false"/>
             <property name="rowBoundsWithCount" value="false"/>

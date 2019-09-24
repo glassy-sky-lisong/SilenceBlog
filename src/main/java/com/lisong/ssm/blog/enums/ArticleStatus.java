@@ -1,7 +1,7 @@
 package com.lisong.ssm.blog.enums;
 
 public enum ArticleStatus {
-    PUBILISH(1,"已发布"),
+    PUBLISH(1,"已发布"),
     DRAFT(0,"草稿");
 
     private Integer value;
