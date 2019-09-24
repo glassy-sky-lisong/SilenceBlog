@@ -35,7 +35,7 @@
 
 #### 5.项目首页没有文件夹名称
 确保 tomcat 配置中 `application context` 是 /，而不是 /ForestBlog。这是导致你们首页css样式全无的原因，因为引用css路径都是 /xxx/xxx.css
-![image](https://github.com/glassy-sky-lisong/SilenceBlog/uploads/tomcat.png)
+![image](https://github.com/glassy-sky-lisong/SilenceBlog/blob/master/uploads/tomcat.png)
 
 具体情况请看步骤
 
@@ -69,7 +69,7 @@ forest_blog.sql: 数据库文件，请先创建数据库，然后以运行sql文
 如果不修改，会出现无法上传失败；<br/>
 
 2. 给 IDEA 设置静态资源映射，在 tomcat 配置中 Deployment 里面添加，如图
-![image](https://github.com/glassy-sky-lisong/SilenceBlog/uploads/tomcat2.png)
+![image](https://github.com/glassy-sky-lisong/SilenceBlog/blob/master/uploads/tomcat.png)
 
 如果你是在 Linux 服务器上部署，需要在 Tomcat 配置文件中添加 <br/>
 在 tomcat/conf/server.xml 的 Host 标签内添加如下代码 <br/>
@@ -87,5 +87,5 @@ Github地址：https://github.com/glassy-sky-lisong/SilenceBlog
 
 ## 请喝一杯奶茶
 请我喝一杯奶茶吧！
-具体查看[有偿服务](https://cnblogs.com/glassysky )
+具体查看[博客园地址](https://cnblogs.com/glassysky )
 
